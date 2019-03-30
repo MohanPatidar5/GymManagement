@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Oswald:700');
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic');
+.box
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 40px;
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5)  ;
+	border-radius: 10px; 
+}
+.box h2
+{
+	font-family: 'Lobster', cursive;
+	margin: 0 0 30px;
+	padding-right: 0;
+	color: #fff;
+	text-align: center;
+}
+.box .round
+{
+	height: 150px;
+	width: 150px;
+	margin-top: 150px;
+	border: 1px solid  #ffc107;
+	border-radius: 150px;
+	background: #ffff00;
+	box-shadow:0 5px 5px rgpa (31,28,28,0,73);
+}
+.box .eye1
+{
+	height: 20px;
+	width: 20px;
+	margin-top: 50px;
+    margin-left: -55px;
+    border-radius: 20px;
+    background: #5c3a13;
+}
+ 
+.box .eye2
+{
+	height: 20px;
+	width: 20px;
+	margin-top: -19px;
+    margin-right: -45px;
+    border-radius: 20px;
+    background: #5c3a13;
+}
+ 
+.box .mouth
+{
+	height: 10px;
+	width: 70px;
+	margin-top: 30px;
+	border-radius: 50px;
+	background:#5C3A13;
+}
+header	{
+	background: midnightblue;
+	color: white;
+	padding: 8px 0px 6px 0px;
+	height: 60px;
+}
+body
+{margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+background: steelblue;
+}
+header h1
+{color: #ff0066;
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Lobster', cursive;
+	font-size: 50px;
+	margin-top: 0px; 
+}

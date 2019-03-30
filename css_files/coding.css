@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Oswald:700');
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic');
+body
+{margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+background: steelblue;
+}
+header	{
+	background: black;
+	color: white;
+	padding: 8px 0px 0px 0px;
+	height: 60px;
+}
+header h1
+{  display: inline;
+      color: #ff0066;
+font-family: 'Lobster', cursive;
+	font-size: 40px;
+	float: left;
+	margin-top: 5px; 
+	
+	margin-left: 0px;
+}
+nav ul
+{
+	display: inline;
+	padding:0px;
+	float: left;
+}
+nav ul li
+{
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	color: white; 
+	margin-left: 20px;
+}
+nav ul li a
+{
+	color: white;
+	padding:0px;
+	text-decoration: none;
+	top: 20px;
+}
+#nav
+{
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+
+}
+.homered{
+	background-color: hotpink;
+	padding: 38px 10px 0px 10px;
+}
+.divider
+{
+	background-color: hotpink;
+	height: 5px;
+}
+.homeblack:hover
+{
+	background-color: blue;
+	padding: 14px 10px 0px 10px;
+}
+.homeblue:hover
+{
+	background-color: plum;
+
+padding: 10px 10px 0px 10px;
+}
+
+
+#main-wraper{
+	width:500px;
+	margin:0 auto;
+	background:black;
+	padding :10px;
+	border-radius:10px;
+	border:2px solid green;
+	margin-top: 100px;
+}
+
+}
+.Management{
+	background:#fff200;
+	height: 100px;
+	margin-left: 0px;
+	border-radius: 10px;
+}
+#mohan{
+	width:900px;
+	margin:0 auto;
+	background:#12CBC4;
+	padding :50px;
+	border-radius:10px;
+	border:2px solid red;
+	margin-top: 20px;
+}
+
+.gym{
+  width:150px;
+ text-align:center;
+border-radius:100%;
+}
+.PICGYM{
+  width:350px;
+ text-align:right;
+ padding:50px;
+
+} 
+.MYFROM{
+	width:450px;
+	margin:0 auto;
+}
+.INPUTVALUES{
+	margin-top:10px;
+	margin-left:25px;
+	width:430px;
+	padding:5px;
+}
+.INPUT{
+	width:235px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	padding:5px;
+}
+.ID-NO{
+	width:235px;
+	margin-top:10px;
+	margin-left:33px;
+	margin-right:10px;
+	padding:5px;
+}
+.INdo{
+	width:235px;
+	margin-top:10px;
+	margin-left:40px;
+	margin-right:10px;
+	padding:5px;
+}
+.INcr{
+	width:335px;
+	margin-top:10px;
+	margin-left:40px;
+	margin-right:10px;
+	padding:5px;
+}
+.weight{
+	width:235px;
+	margin-top:10px;
+	margin-left:30px;
+	margin-right:10px;
+	padding:5px;
+}
+.age{
+	width:235px;
+	margin-top:10px;
+	margin-left:53px;
+	margin-right:10px;
+	padding:5px;
+}
+.add{
+	width:235px;
+	margin-top:10px;
+	margin-left:22px;
+	margin-right:10px;
+	padding:5px;
+}
+.plan{
+	width:235px;
+	margin-top:10px;
+	margin-left:px;
+	margin-right:10px;
+	padding:5px;
+}
+.batch{
+	width:235px;
+	margin-top:10px;
+	margin-left:35px;
+	margin-right:10px;
+	padding:5px;
+}
+#button{
+	margin-top:10px;
+	background-color:#be2edd;
+	padding:5px;
+	color:black;
+	width:15%;
+	text-align:center;
+	front-size:20px;
+	front-weight:bold;
+	margin-left: 40px;
+	border-radius: 20px;
+	
+}
+#nutton{
+	margin-top:10px;
+	background-color:#be2edd;
+	padding:5px;
+	color:black;
+	width:15%;
+	text-align:center;
+	front-size:20px;
+	front-weight:bold;
+	margin-left: px;
+	border-radius: 20px;
+	
+}
+#putton{
+	margin-top:15px;
+	background-color:#be2edd;
+	padding:5px;
+	color:black;
+	width:10%;
+	text-align:center;
+	front-size:20px;
+	front-weight:bold;
+	margin-left:5px;
+	border-radius:30px;
+	
+}
+#register_btn{
+	margin-top:10px;
+	margin-left: 100px;
+	margin-bottom:20px;
+	background-color:orange;
+	padding:5px;
+	color:black;
+	width:50%;
+	text-align:center;
+	front-size:10px;
+	front-weight:bold;
+	
+}
+#Signup_btn{
+	margin-top:20px;
+	margin-bottom:20px;
+	background-color:green;
+	padding:5px;
+	color:white;
+	font-size: 20px;
+	width:30%;
+	text-align:center;
+	front-size:10px;
+	border-radius: 10px;
+	front-weight:bold;
+	margin-left: 500px;
+	
+}
+m1.{
+	color: red;
+}
+	
+.error{
+	color:white;
+}	
+
+
+
+.box
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 40px;
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5)  ;
+	border-radius: 10px; 
+}
+.box h2
+{
+	margin: 0 0 30px;
+	padding-right: 0;
+	color: #fff;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+
+}
+.box .inputbox
+{
+	position: relative;
+}
+.box .inputbox input
+{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom:30px;
+	border: none;
+	border-bottom: 1px solid #fff; 
+	outline: none;
+	background: transparent;
+}
+.box .inputbox label
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	letter-spacing: 1px; 
+	padding: 10px 0;
+	font-size: 10px;
+	color: #fff;
+	pointer-events: none;
+	transition: .5s;
+
+}
+.box .inputbox input:focus ~ label,
+.box .inputbox input:valid ~ label 
+{
+top: -18px;
+left: 0;
+color: #03a9f4;
+font-size: 12px;
+}
+.box input [type="submit"]
+{
+   background: transparent;
+border: none;
+outline: none;
+color: #fff;
+background:#03a9f4;
+padding:10px 20px; 	
+cursor: pointer;
+border-radius : 5px;
+}
